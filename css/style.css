@@ -1,3 +1,196 @@
+:root {
+  --cor-principal:#0688FF;
+  --cor-secundaria:#3E3E9C;
+  --cor-terciaria:#FCB02A;
+  --cor-quartenaria:#F04B34;
+}
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: black;
+}
+
+.container01 {
+  height: 5vh;
+  background-color: var(--cor-terciaria);
+  color: white;
+}
+.container01 a {
+  color: var(--cor-quartenaria);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.header img {
+  margin-right: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: var(--cor-secundaria);
+  color: white;
+  border-top: 1px solid white;
+}
+
+:root {
+  --cor-principal:#054ab3;
+  --cor-secundaria:#0206be;
+  --cor-terciaria:#f8cb00;
+  --cor-quartenaria:#F04B34;
+}
+
+.carrosselSlide {
+  height: 85vh;
+}
+.carrosselSlide img {
+  width: 100vw;
+  height: 85vh;
+  border-top: 1px solid black;
+}
+
+.container03 {
+  height: 70vh;
+}
+
+.container04 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-secundaria);
+  color: #fff;
+}
+.container04 .intention {
+  width: 50vw;
+  margin-right: 10vw;
+  margin-left: 30px;
+}
+.container04 .intention h3 {
+  margin-bottom: 20px;
+}
+.container04 .intention p {
+  width: 400px;
+  text-align: justify;
+  line-height: 30px;
+}
+.container04 .intention a {
+  padding: 15px 25px;
+  background-color: var(--cor-principal);
+  color: white;
+  border-radius: 10px;
+}
+.container04 .container-link {
+  width: 40vw;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container04 .container-link img {
+  height: 64px;
+  width: 64px;
+  margin-bottom: 40px;
+}
+.container04 .container-link img:hover {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+.container04 .container-link h5 {
+  text-align: center;
+  width: 200px;
+}
+.container04 .container-link h5:hover {
+  cursor: pointer;
+}
+
+.carrossel02 {
+  height: 60vh;
+  background-color: var(--cor-principal);
+  padding: 0px;
+}
+.carrossel02 h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.carrossel02 p {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.carrossel02 .depoimentos {
+  width: 30vw;
+  margin: 40px auto;
+}
+.carrossel02 .depoimentos img {
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.agende-visita {
+  background-color: var(--cor-terciaria);
+  height: 10vh;
+}
+
+.contatos {
+  background-color: var(--cor-secundaria);
+  height: 10vh;
+}
+
+.institution-information {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  background-color: var(--cor-principal);
+}
+.institution-information .contatos {
+  background-color: var(--cor-secundaria);
+  height: 10vh;
+}
+.institution-information .informations {
+  width: 500px;
+}
+.institution-information .informations h5 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #FCB02A;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.institution-information .informations ul > li {
+  line-height: 30px;
+}
+.institution-information .informations a {
+  color: rgba(255, 255, 255, 0.8980392157);
+  font-size: 1.2rem;
+}
+.institution-information .seja h5 {
+  margin-top: 30px;
+}
+.institution-information .seja h5 a {
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=style.css.map */
