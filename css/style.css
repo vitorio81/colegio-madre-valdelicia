@@ -122,10 +122,71 @@ a {
   cursor: pointer;
 }
 
+.container05 {
+  height: auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-terciaria);
+  margin: 0px auto 50px;
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 10px;
+}
+.container05 h2 {
+  width: 90vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0206be, #010347);
+  color: #fff;
+  font-weight: bolder;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container05 .nossa-estrutura {
+  height: auto;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.container05 .nossa-estrutura .container-div {
+  width: 250px;
+  box-shadow: 1px 1px 10px gray, -1px -1px 10px gray;
+  border-radius: 10px;
+  margin: 20px 30px;
+}
+.container05 .nossa-estrutura .container-div img {
+  width: 250px;
+  height: 200px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.container05 .nossa-estrutura .container-div .nomeacao {
+  width: 250px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0206be, #010347);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container05 .nossa-estrutura .container-div .nomeacao h5 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
 .carrossel02 {
   height: 60vh;
   background-color: var(--cor-principal);
   padding: 0px;
+  margin-bottom: 50px;
 }
 .carrossel02 h2 {
   color: #fff;
@@ -150,11 +211,47 @@ a {
 .agende-visita {
   background-color: var(--cor-terciaria);
   height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.agende-visita h5 {
+  color: var(--cor-secundaria);
+  margin-right: 50px;
+}
+.agende-visita a {
+  padding: 10px 25px;
+  background-color: var(--cor-principal);
+  color: white;
+  border-radius: 10px;
 }
 
 .contatos {
   background-color: var(--cor-secundaria);
-  height: 10vh;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contatos p {
+  color: #fff;
+  margin-bottom: 2px;
+}
+.contatos div {
+  display: flex;
+  flex-direction: row;
+}
+.contatos .icones {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .institution-information {
